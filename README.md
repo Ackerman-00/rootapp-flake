@@ -20,6 +20,6 @@ Open your system's `flake.nix` and add this repository to your `inputs` block:
     # Add the RootApp Flake
     rootapp-flake = {
       url = "github:Ackerman-00/rootapp-flake";
-      inputs.nixpkgs.follows = "nixpkgs"; # Keeps your system dependencies lean
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
